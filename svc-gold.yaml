@@ -7,4 +7,5 @@ spec:
     app: gold
   type: ClusterIP  
   ports:
-   - port: 80  
+  - port: 80
+    
