@@ -10,14 +10,14 @@ spec:
   rules:
   - http:
       paths:
-      - path: /gold
+      - path: /
         pathType: Prefix
         backend:
           service:
             name: my-svc-gold
             port:
               number: 80
-      - path: /std
+      - path: /
         pathType: Prefix
         backend:
           service:
